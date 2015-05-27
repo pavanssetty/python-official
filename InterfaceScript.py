@@ -10,9 +10,9 @@ import sys
 outputlog = open("creation_log.log" , 'a+')
 changelistlog = open("change_log.log" , 'a+')
 p4 = P4()
-p4.port="10.127.22.17:1666"
-p4.user = "singipav" # to be changed to the tester's id
-p4.password = 'may@2015'
+p4.port="perforce:1666"
+p4.user = "username" # to be changed to the tester's id
+p4.password = 'password'
 p4.client = "hydhtc82865l_dev" # Create a workspace with workspace root mapped to the depot root where you want to checkin the migrated content
 #workspaceRoot = '/depotdata/p4admin_deheremap6382'  # Local diskspace where you want to create the workspace.
 p4.debug=3
