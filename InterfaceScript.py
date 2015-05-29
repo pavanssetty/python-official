@@ -1,6 +1,6 @@
 #!/usr/bin/python
 from P4 import P4,P4Exception
-import shutil, os
+import os
 import time
 import traceback
 import csv
